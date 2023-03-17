@@ -68,6 +68,14 @@
           left: 900px;
           top: 3px;
         }
+        .pillar .tray-controls {
+          top: 120px;
+          position: fixed;
+        }
+        .pillar .tab.profile {
+          position: fixed;
+          top: 70px;
+        }
     `;
     document.head.appendChild(style);
 
