@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name Classic GroupMe Restorer
+// @name Old GroupMe
 // @namespace http://tampermonkey.net/
 // @version 0.1
 // @author capcor
 // @match *://web.groupme.com/*
 // @match *://groupme.com/*
 // @match *://cdn.groupme.com/*
+// @match https://web.groupme.com/chats
 // @grant none
 // ==/UserScript==
 
@@ -14,15 +15,35 @@
 
     var style = document.createElement('style');
     style.innerHTML = `
+        .message-composer {
+          padding: 0px 0px !important;
+        }
         .message-composer .composer-layout .composer-wrapper .emoji-wysiwyg-editor {
             background-color: #fffFff;
             border-radius: 0px;
             padding: 14px 14px 14px 55px;
             margin: 0px;
         }
+        body {
+          font-family: -system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif !important;
+        }
         #chats .chat-header .menu-toggle .avatar-wrap .avatar img {
             border-radius: 0px;
         }
+        #chats .chat {
+            margin: 0px 0px !important;
+        }
+        .chat-messages .message .message-body .content .message-text {
+            font-size: 15px !important;
+        }
+        #chats {
+            position: fixed !important;
+            width: 955px !important;
+        }
+        .list-item[data-v-4105feea] {
+          padding: 0px 0px !important;
+        }
+
         .image-content .image-wrapper img {
             border-radius: 0px;
         }
@@ -75,6 +96,12 @@
         .pillar .tab.profile {
           position: fixed;
           top: 70px;
+        }
+        .pillar .tab.logo svg path {
+          fill: #00AFF0 !important;
+        }
+        * {
+          border-radius: 0px !important;
         }
     `;
     document.head.appendChild(style);
