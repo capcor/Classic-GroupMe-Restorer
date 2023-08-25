@@ -34,7 +34,7 @@
             margin: 0px 0px !important;
         }
         .chat-messages .message .message-body .content .message-text {
-            font-size: 15px !important;
+            font-size: 14px !important;
         }
         #chats {
             position: fixed !important;
@@ -43,7 +43,10 @@
         .list-item[data-v-4105feea] {
           padding: 0px 0px !important;
         }
-
+        img[data-v-3383a9a2] {
+            width: 30px !important;
+            height: 30px !important;
+        }
         .image-content .image-wrapper img {
             border-radius: 0px;
         }
@@ -60,7 +63,11 @@
             color: #00AFF0 !important;
         }
         .chat-messages .message .message-header .message-pill {
-            border: 1.5px solid #00AFF0;
+            border: 5px solid #00AFF0  !important;
+            height: 30px !important;
+            margin-right: 0  !important;
+            margin-top: 0  !important;
+            left: 0px !important;
         }
         .toggle-switch * {
             color: #00AFF0 !important;
@@ -93,12 +100,15 @@
           top: 120px;
           position: fixed;
         }
-        .pillar .tab.profile {
+        .pillar .tab.profile img{
           position: fixed;
-          top: 70px;
+          top: 83px;
         }
         .pillar .tab.logo svg path {
           fill: #00AFF0 !important;
+        }
+        .pillar .tab.active {
+          box-shadow: 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0) !important;
         }
         * {
           border-radius: 0px !important;
@@ -120,5 +130,4 @@
     }
 
 })();
-
 
