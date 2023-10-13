@@ -15,6 +15,13 @@
 
     var style = document.createElement('style');
     style.innerHTML = `
+        #app {
+          background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255),
+    rgba(255, 255, 255)
+  ), url("https://upload.wikimedia.org/wikipedia/commons/0/0c/PEO-groupme-0.svg");
+  }
         .message-composer {
           padding: 0px 0px !important;
         }
@@ -38,7 +45,7 @@
         }
         #chats {
             position: fixed !important;
-            width: 955px !important;
+            width: 900px !important;
         }
         .list-item[data-v-4105feea] {
           padding: 0px 0px !important;
@@ -93,7 +100,7 @@
           top: 5px
         }
         .message-composer .composer-layout .controls-left {
-          left: 900px;
+          left: 850px;
           top: 3px;
         }
         .pillar .tray-controls {
@@ -112,6 +119,12 @@
         }
         * {
           border-radius: 0px !important;
+        }
+        #tray {
+          background-color: #f5f5f5
+        }
+        .list-item[data-v-7debf0df] {
+          padding: 0 0 !important;
         }
     `;
     document.head.appendChild(style);
