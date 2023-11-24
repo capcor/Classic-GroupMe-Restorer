@@ -47,7 +47,7 @@
             position: fixed !important;
             width: 900px !important;
         }
-        .list-item[data-v-4105feea] {
+        .list-item[data-v-71ca7a33] {
           padding: 0px 0px !important;
         }
         img[data-v-3383a9a2] {
@@ -126,6 +126,9 @@
         .list-item[data-v-7debf0df] {
           padding: 0 0 !important;
         }
+        .chat-action.transparent-back.accessible-focus{
+          display:none;
+          }
     `;
     document.head.appendChild(style);
 
