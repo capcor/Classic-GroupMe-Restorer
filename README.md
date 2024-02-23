@@ -2,4 +2,4 @@
 Simple userscript that makes groupme look how it previously did.
 
 
-Multi-Chat not supported
+Multi-Chat not supported yet
