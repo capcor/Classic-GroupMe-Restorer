@@ -129,6 +129,52 @@
         .chat-action.transparent-back.accessible-focus{
           display:none;
           }
+
+
+.iframely-embeded .unfurled .meta[data-v-44631842] {
+  background-color: rgba(43,43,48,.7);
+}
+
+.iframely-embeded .unfurled .meta .title[data-v-44631842] {
+  font-size: 12px;
+  color: white;
+}
+
+.iframely-embeded .unfurled .host[data-v-44631842] {
+  background: rgba(0, 0, 0, 0) !important;
+  backdrop-filter: blur(0px) !important;
+  padding: 170px 10px 3px 3px;
+}
+
+.iframely-embeded .unfurled .host img[data-v-44631842] {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+
+#D0482EC6-D8EA-4F33-A622-2C12141394C6 > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+  padding-bottom: 30px;
+}
+
+
+#D0482EC6-D8EA-4F33-A622-2C12141394C6 > div:nth-child(3) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+  padding-top: 212px;
+  padding-left: 16px;
+  padding-left: 16px;
+  margin-left: 0px;
+}
+
+.iframely-embeded[data-v-44631842] {
+  max-width: 533px;
+}
+
+.iframely-embeded .unfurled[data-v-44631842] {
+  max-width: 360px;
+}
+
+
+
+
     `;
     document.head.appendChild(style);
 
